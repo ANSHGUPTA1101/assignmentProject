@@ -1,0 +1,72 @@
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  color: #666;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+
+
+
+.header-right input {
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+    background-color: #eeeeee;
+  
+}
+
+
+
+.notification-wrapper {
+  position: relative;
+}
+
+.notification-wrapper .icon {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.notification-wrapper .badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: rgb(85, 255, 0);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
