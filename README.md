@@ -50,6 +50,9 @@ npm run dev
 # For production build
 npm run build
 npm run preview
+
+---
+
 🚀 Live Demo
 🔗[ Click here to view the live project on Vercel](https://assignment-project-woad.vercel.app/)
 
